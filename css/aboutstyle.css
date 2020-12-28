@@ -1,0 +1,14 @@
+/*Caracteristicas del contenido about*/
+.icon img {
+    width: 80px;
+    
+}
+#frame-about {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 35px;
+}

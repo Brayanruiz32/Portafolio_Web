@@ -1,0 +1,16 @@
+#profile{
+    width: 22%;
+    margin: 25% auto;
+}
+
+#profile .social-net{
+    width: 183px;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+#profile > div{
+    width: 17px;
+margin: 0px auto;
+}

@@ -1,0 +1,98 @@
+/*Caracteristicas generales de la pagina*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #8a879a;
+}
+/*Caracteristicas del contenedor*/
+#container{
+    border: 1px solid black;
+    width: 90%;
+    height: 610px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 86, 143);
+}
+
+/*Caracteristicas de la cabecera*/
+
+#cabecera{
+    border: 1px solid black;
+    margin: 25px 25px 0px 25px;
+    border-radius: 5px;
+}
+
+/*Caracteristicas de la barra*/
+#barra{
+    border: 1px solid black;
+    float: left;
+    width: 20%;
+    height: 80%;
+    margin: 25px;
+    font-size: 18px;
+}
+
+#barra table td a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#barra table{
+    margin: 0px auto;
+    width: 120px;
+    margin-top: 25px;
+}
+
+#barra table tr{
+    margin: 17px;
+}
+
+#barra table tbody{
+    height: 420px;
+}
+
+#barra table td:first-child{
+    text-align: center;
+}
+
+/*Caracteristicas del contenido*/
+#content{
+    border: 1px solid black;
+    margin: 10px;
+    float: left;
+    margin: 25px;
+    width: 71%;
+    height: 80%;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/*Caracteristicas del pie*/
+#pie{
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 3px;
+}
+
+/*Animacion del corazon*/
+
+.heart-animation{
+    animation: latido 2s infinite;
+    color: red;
+}
+@keyframes latido{
+    0%{font-size: 12px;}
+    25%{font-size: 13px;}
+    50%{font-size: 14px;}
+    75%{font-size: 13px;}
+    100%{font-size: 12px;}
+}
+
+/*Animaciones de hover*/
