@@ -15,7 +15,7 @@ body{
     margin: 0px auto;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: rgb(36, 86, 143);
+    background-color: #6e6be5;
     padding-top: 1%;
 }
 
@@ -23,27 +23,37 @@ body{
 
 #cabecera{
     /*border: 1px solid black;*/
-    margin: 25px 25px 0px 25px;
+    /*margin: 25px 25px 0px 25px;*/
     border-radius: 5px;
+    height: 50px;
 }
+
+#cabecera .titulo{
+    line-height: 35px;
+    margin-left: 55px;
+}
+/*
 
 #cabecera h3{
     margin-left: 30px;
 }
-
+*/
 /*Caracteristicas de la barra*/
 #barra{
     /*border: 1px solid black;*/
     float: left;
     width: 20%;
     height: 80%;
-    margin: 25px;
+    margin-left: 4%;
     font-size: 18px;
+    background-color: #0f1040;
+    color: #bfb36b;
+    border-radius: 5px;
 }
 
 #barra table td a{
     text-decoration-line: none;
-    color: black;
+    color: white;
 }
 
 #barra table{

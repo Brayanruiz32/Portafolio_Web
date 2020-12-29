@@ -31,3 +31,9 @@
 .box{
     text-align: center;
 }
+/*Caracteristicas del header con foto*/
+#cabecera .titulo img{
+    width: 38px;
+    float: left;
+    border-radius: 99px;
+}

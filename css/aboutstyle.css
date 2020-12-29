@@ -11,3 +11,14 @@
     margin-top: 2%;
     margin-right: 2%;
 }
+/*
+estilos de antes
+#cabecera .titulo img{
+    width: 14px;
+}
+*/
+#cabecera .titulo img{
+    width: 38px;
+    float: left;
+    border-radius: 99px;
+}

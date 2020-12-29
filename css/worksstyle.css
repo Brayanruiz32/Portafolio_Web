@@ -1,6 +1,6 @@
 #frame-jobs{
     padding: 40px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .icon{
     text-align: center;
@@ -15,4 +15,9 @@
     margin: 0px auto;
     margin-top: 5px;
 }
-
+/*Caracteristicas del header con foto*/
+#cabecera .titulo img{
+    width: 38px;
+    float: left;
+    border-radius: 99px;
+}

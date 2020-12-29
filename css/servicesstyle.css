@@ -1,3 +1,17 @@
+
+/*Caracteristicas del header con foto*/
+#cabecera .titulo img{
+    width: 38px;
+    float: left;
+    border-radius: 99px;
+}
+
+
+#content{
+    margin: 0px;
+    margin-bottom: 50px !important;
+}
+
 .photo{
     width: 100px;
     float: left;
@@ -44,7 +58,7 @@
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 2px;
-    border: 1px solid black;
+
     margin: 0px 25px;
     border-radius: 5px;
 }
