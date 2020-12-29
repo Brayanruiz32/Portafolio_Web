@@ -1,0 +1,19 @@
+#frame-jobs{
+    padding: 40px;
+}
+.icon{
+    text-align: center;
+}
+
+.icon img:hover{
+    opacity: 0.6;
+}
+
+.text ul{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.text ul li{
+    list-style: none;
+}

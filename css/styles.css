@@ -5,29 +5,32 @@
 }
 body{
     background-color: #8a879a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Caracteristicas del contenedor*/
 #container{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 90%;
-    height: 610px;
+    height: 600px;
     margin: 0px auto;
     margin-top: 20px;
     border-radius: 10px;
     background-color: rgb(36, 86, 143);
+    padding-top: 1%;
 }
 
 /*Caracteristicas de la cabecera*/
 
 #cabecera{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 25px 25px 0px 25px;
     border-radius: 5px;
+    text-align: center;
 }
 
 /*Caracteristicas de la barra*/
 #barra{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
     width: 20%;
     height: 80%;
@@ -60,7 +63,7 @@ body{
 
 /*Caracteristicas del contenido*/
 #content{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 10px;
     float: left;
     margin: 25px;
@@ -78,8 +81,13 @@ body{
     background-color: chartreuse;
     text-align: center;
     border-radius: 0px 0px 10px 10px;
-    padding-bottom: 3px;
+    
 }
+#pie > div{
+    height: 23px;
+    font-size: 18px;
+}
+
 
 /*Animacion del corazon*/
 

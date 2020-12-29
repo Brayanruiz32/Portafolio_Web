@@ -1,16 +1,37 @@
-#profile{
-    width: 22%;
-    margin: 25% auto;
+#cabecera h3{
+    display: none;
 }
 
-#profile .social-net{
-    width: 183px;
+#profile {
+    width: 23%;
+    /*margin: 25% auto;*/
+    text-align: center;
+    margin: 10% 30%;
+}
+
+#profile .social-net {
+
     text-align: center;
     font-size: 25px;
-    color: red;
+    color: white;
 }
 
-#profile > div{
-    width: 17px;
-margin: 0px auto;
+#profile>div img {
+    width: 170px;
+    border-radius: 99px;
+}
+
+.social-net .fa-github:hover{
+    color: black;
+}
+.social-net .fa-instagram:hover{
+    color: #dc0048;
+}
+.social-net .fa-facebook-square:hover{
+    color: blue;
+
+}
+.social-net .fa-linkedin:hover{
+    color: blue;
+ 
 }

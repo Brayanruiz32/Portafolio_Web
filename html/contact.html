@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Portafolio - BRM</title>
     <link rel="icon" href="img/rocket.jpg" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/indexstyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/contactstyle.css"/>
     <script src="https://kit.fontawesome.com/de232ffb36.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
@@ -43,6 +43,34 @@
             </table>
         </aside>
         <article id="content">
+            <div id="contact-form">
+                <h3>Hablemos de tu idea <i class="fas fa-handshake"></i></h3>
+                <img class="icon-contact" src="../img/programing.png">
+                <form action="../php/send.php" method="POST">
+                    <table class="form-table">
+                        <tr>
+                            <td><i class="fas fa-user"></i></td>
+                            <td><input type="text" name="nombre" placeholder="Nombre"/></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-envelope"></i></td>
+                            <td><input type="email" name="correo" placeholder="Correo"/></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-pencil-alt"></i></td>
+                            <td><input type="text" name="asunto" placeholder="Asunto"/></td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-comment-alt"></i></td>
+                            <td><textarea name="mensaje" placeholder="Mensaje"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center;"><input type="submit" name="enviar" value="Enviar" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
         </article>
         <div class="clearfix"></div>
         <footer id="pie">
