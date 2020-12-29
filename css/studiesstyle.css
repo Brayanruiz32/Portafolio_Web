@@ -8,13 +8,20 @@
 }
 
 #frame-formation{
-    padding: 60px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
     justify-items: center;
     gap: 30px 0px;
-    padding-top: 20px;
+    height: 100%;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5px;
+    background-color: #0f1040;
+    justify-content: center;
+    align-content: center;
 }
 .formation img{
     width: 100px;
