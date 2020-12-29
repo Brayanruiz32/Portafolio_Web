@@ -6,6 +6,5 @@
     $mensaje = $_POST['mensaje'];
     $texto_mensaje = 'El usuario ' . $nombre . ' con correo ' . $correo .  ' te dijo ' . $mensaje; 
     mail("maverick.brm@gmail.com", $asunto, $texto_mensaje); 
-    echo "Se envio el correo";
-
+    header("Location: ../index.html"); 
 ?>
