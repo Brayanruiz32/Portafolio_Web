@@ -25,7 +25,10 @@ body{
     /*border: 1px solid black;*/
     margin: 25px 25px 0px 25px;
     border-radius: 5px;
-    text-align: center;
+}
+
+#cabecera h3{
+    margin-left: 30px;
 }
 
 /*Caracteristicas de la barra*/

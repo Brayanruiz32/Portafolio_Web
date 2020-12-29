@@ -1,5 +1,6 @@
 #frame-jobs{
     padding: 40px;
+    padding-top: 20px;
 }
 .icon{
     text-align: center;
@@ -10,10 +11,8 @@
 }
 
 .text ul{
+    width: 25%;
+    margin: 0px auto;
     margin-top: 5px;
-    text-align: center;
 }
 
-.text ul li{
-    list-style: none;
-}

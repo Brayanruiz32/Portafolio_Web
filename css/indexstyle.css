@@ -1,3 +1,7 @@
+#cabecera{
+    height: 22px;
+}
+
 #cabecera h3{
     display: none;
 }
@@ -35,3 +39,4 @@
     color: blue;
  
 }
+
