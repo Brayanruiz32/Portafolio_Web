@@ -63,3 +63,7 @@
     color: blue;
 }
 
+.responsive-photo{
+    max-width: 100%;
+    height: auto;
+}

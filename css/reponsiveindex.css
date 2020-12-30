@@ -1,0 +1,237 @@
+@media (max-width: 1280px) {
+    #profile h3 {
+        font-size: 16px;
+    }
+
+    #barra {
+        font-size: 16px;
+    }
+
+    #pie>div {
+        font-size: 16px;
+    }
+
+    #profile .social-net {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    #profile>div img {
+        width: 160px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #profile>div img {
+        width: 155px;
+    }
+
+    #profile>div:first-child {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 1170px) {
+    #profile>div img {
+        width: 150px;
+    }
+
+    #profile>div:first-child {
+        padding-top: 17%;
+    }
+}
+
+@media (max-width: 1100px) {
+    #barra {
+        font-size: 15px;
+    }
+
+    #barra table {
+        width: 105px;
+    }
+}
+
+@media (max-width: 1070px) {
+    #profile>div img {
+        width: 145px;
+    }
+
+    #profile>div {
+        width: 25%;
+    }
+}
+
+@media (max-width: 960px) {
+    #profile>div {
+        width: 26%;
+    }
+}
+
+@media (max-width: 960px) {
+    #profile>div:first-child {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 960px) {
+    #profile>div {
+        width: 27%;
+    }
+}
+
+@media (max-width: 935px) {
+    #profile>div {
+        width: 29%;
+    }
+}
+
+@media (max-width: 850px) {
+    #profile>div {
+        width: 31%;
+    }
+
+    #profile>div:first-child {
+        padding-top: 22%;
+    }
+}
+
+@media (max-width: 750px) {
+    #profile>div {
+        width: 33%;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #profile>div {
+        width: 35%;
+    }
+
+    #profile>div:first-child {
+        padding-top: 25%;
+    }
+}
+
+
+@media (max-width: 710px) {
+    #profile>div {
+        width: 36%;
+    }
+
+    #profile>div:first-child {
+        padding-top: 26%;
+    }
+}
+
+@media (max-width: 670px) {
+    #profile>div {
+        width: 37%;
+    }
+
+    #profile>div:first-child {
+        padding-top: 27%;
+    }
+}
+
+/*Cambio en el diseño del contenedor a celular*/
+
+@media (max-width:650px) {
+    #profile h3 {
+        font-size: 14px;
+    }
+
+    #barra {
+        font-size: 14px;
+        float: none;
+        height: auto;
+        width: 92%;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #profile{
+        margin-left: 4%;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    #pie>div {
+        font-size: 14px;
+    }
+
+    #barra table {
+        margin: 0px auto;
+    }
+
+
+    #cabecera {
+        height: 22px !important;
+    }
+
+    #barra table tbody {
+        height: 150px;
+    }
+    #content{
+        width: 96%;
+        height: 59%;
+    }
+
+    #profile > div:first-child {
+        padding-top: 15%;
+    }
+
+    #profile > div {    
+        width: 29%;
+    }
+}
+
+@media (max-width: 610px){
+    #profile > div {
+        width: 31%;
+    }
+}
+
+@media (max-width: 600px){
+    #profile > div{
+        width: 33%;
+    }
+}
+
+@media (max-width: 430px){
+    #profile h3 {
+        font-size: 13px;
+    }
+
+    #barra {
+        font-size: 13px;
+    }
+
+    #pie>div {
+        font-size: 13px;
+    }
+
+    #profile .social-net {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width:430px){
+    #profile > div:first-child {
+        padding-top: 24%;
+    }
+}
+
+@media (max-width:340px){
+    #profile > div:first-child {
+    padding-top: 30%;
+    }
+    #profile .social-net {
+        font-size: 17px;
+    }
+}
+@media (max-width:300px){
+    #profile > div:first-child {
+        padding-top: 38%;
+    }
+}
