@@ -57,33 +57,22 @@
 #services{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-items: center;
-    padding-top: 2%;
-}
-
-#services .tech{
-    display: grid;
-    grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-items: center;
-    /*padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 2px;*/
-    margin: 0px 25px;
-    border-radius: 5px;
-    gap: 5px;
-    animation-name: cambiofondo;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: linear;
+    text-align: center;
+
 }
+#services > div{
+    margin-top: 12%;
+}
+
 #services .descrip-tech{
     margin-left: 10px;
 }
 #services .tech .icon-tech{
     text-align: center;
 }
-#services .tech .icon-tech img{
+#services .tech img{
     width: 50px;
 }
 
