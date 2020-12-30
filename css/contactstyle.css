@@ -13,6 +13,7 @@
     width: 38px;
     float: left;
     border-radius: 99px;
+    margin-right: 5px;
 }
 
 /*Caracteristicas propias del contenedor*/
@@ -23,7 +24,9 @@
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 5px;
+
     background-color: #0f1040;
+    background-color: #c69bff;
     /*
     padding-left: 15%;
     padding-right: 18%;
@@ -56,7 +59,7 @@ form input {
     height: 21px;
     font-size: 14px;
     background-color: #24568f;
-    border: white 1px solid;
+    border: #24568f 1px solid;
     border-radius: 2px;
     color: white;
 }
@@ -64,7 +67,7 @@ form input {
 form textarea {
     font-size: 14px;
     background-color: #24568f;
-    border: white 1px solid;
+    border: #24568f 1px solid;
     border-radius: 2px;
     color: white;
     height: 100px;
@@ -88,11 +91,19 @@ table tr {
 }
 
 #contact-form .fas {
-    color: white;
+    color: #24568f;
 }
-
+#contact-form form [type='submit']{
+    color: black;
+    height: 25px;
+}
 #contact-form form [type='submit']:hover {
     cursor: pointer;
     background-color: white;
     color: black;
+}
+
+
+#contact-form .fa-lightbulb{
+    color: #ffff00d6;
 }

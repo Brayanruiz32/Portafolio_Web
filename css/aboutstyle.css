@@ -14,9 +14,10 @@
     padding-right: 2%;
     border-radius: 5px;
     background-color: #0f1040;
+    background-color: #c69bff   ;
     align-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
 /*
 estilos de antes
@@ -28,4 +29,5 @@ estilos de antes
     width: 38px;
     float: left;
     border-radius: 99px;
+    margin-right: 5px;
 }

@@ -7,11 +7,34 @@
 }
 
 #profile {
-    width: 23%;
-    /*margin: 25% auto;*/
-    text-align: center;
-    margin: 10% 40%;
+    /*width: 23%;
+    margin: 25% auto;
+    text-align: center;*/
+
+    height: 100%;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5px;
+    background-color: #0f1040;
+    background-color: #c69bff;
 }
+
+#profile > div{
+    margin: 0px auto;
+    width: 23%;
+}
+#profile > div:first-child{
+    padding-top: 13%;
+}
+
+
+#profile h3{
+    text-align: center;
+}
+
+
 
 #profile .social-net {
 
@@ -23,6 +46,7 @@
 #profile>div img {
     width: 170px;
     border-radius: 99px;
+    
 }
 
 .social-net .fa-github:hover{
@@ -37,6 +61,5 @@
 }
 .social-net .fa-linkedin:hover{
     color: blue;
- 
 }
 

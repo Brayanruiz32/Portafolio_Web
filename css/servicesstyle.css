@@ -4,6 +4,7 @@
     width: 38px;
     float: left;
     border-radius: 99px;
+    margin-right: 5px;
 }
 
 
@@ -20,7 +21,7 @@
     padding-right: 2%;
     border-radius: 5px;
     background-color: #0f1040;
-
+    background-color: #c69bff;
 }
 
 .photo{
@@ -71,6 +72,10 @@
     margin: 0px 25px;
     border-radius: 5px;
     gap: 5px;
+    animation-name: cambiofondo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
 }
 #services .descrip-tech{
     margin-left: 10px;
@@ -82,7 +87,8 @@
     width: 50px;
 }
 
-#services .tech:hover{
-    background-color: burlywood;
-    cursor: default;
+@keyframes cambiofondo{
+    0%{background-color: #c69bff;}
+    50%{background-color:  burlywood;;}
+    100%{background-color: #c69bff;}
 }

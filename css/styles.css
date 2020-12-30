@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body{
-    background-color: #8a879a;
+    background-color: #75b6ff;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Caracteristicas del contenedor*/
@@ -55,6 +55,9 @@ body{
     text-decoration-line: none;
     color: white;
 }
+#barra table td a:hover{
+color: #ffffffc2;
+}
 
 #barra table{
     margin: 0px auto;
@@ -89,7 +92,7 @@ body{
 
 /*Caracteristicas del pie*/
 #pie{
-    background-color: chartreuse;
+    background-color:#6cd272;
     text-align: center;
     border-radius: 0px 0px 10px 10px;
     top: 47px;
