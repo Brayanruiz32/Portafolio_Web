@@ -46,3 +46,7 @@
     border-radius: 99px;
     margin-right: 5px;
 }
+
+#frame-formation .box a{
+    text-decoration-line: none;
+}
