@@ -429,6 +429,11 @@
     .icon img {
         width: 60px;
     }
+    form{
+        width: 56%;
+    }
+
+
 }
 
 @media (max-width:523px) {
@@ -441,15 +446,57 @@
     #cabecera .titulo {
         width: 48%;
     }
+    form{
+        width: 60%;
+    }
 }
+
+
+@media (max-width:502px){
+    form{
+        width: 65%;
+    }
+}
+
+@media (max-width:502px){
+
+    form{
+        width: 70%;
+    }
+
+}
+
+
+@media (max-width:480px){
+    form{
+        width: 75%;
+    }
+
+
+}
+
+@media (max-width:480px){
+    form{
+        width: 80%;
+    }
+
+}
+
 
 @media (max-width:457px) {
     #cabecera .titulo {
         width: 51%;
     }
+
 }
 
 
+@media (max-width:440px){
+    form{
+        width: 88%;
+    }
+
+}
 @media (max-width: 430px) {
 
     #barra {
@@ -472,12 +519,39 @@
     #cabecera .titulo {
         width: 55%;
     }
-
+    form{
+        width: 95%;
+    }
 }
+
+@media (max-width:412px){
+    #rc-anchor-container{
+        margin-left: -2%;
+    }
+}
+
+@media (max-width:404px){
+    form{
+        width: 100%;
+    }
+}
+
 
 @media (max-width:399px) {
     #cabecera .titulo {
         width: 59%;
+    }
+}
+
+@media (max-width: 392px){
+    .form-table{
+        border-spacing: 4px;
+    }
+}
+
+@media (max-width:382px){
+    .form-table{
+        border-spacing: 2px;
     }
 }
 
