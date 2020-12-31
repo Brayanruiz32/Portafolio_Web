@@ -12,6 +12,7 @@
 
     <script src="https://kit.fontawesome.com/de232ffb36.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/responsiveabout.css"/>
 </head>
 
 <body>
@@ -23,37 +24,19 @@
             </div>
         </header>
         <aside id="barra">
-            <table>
-                <tr>
-                    <td><i class="fas fa-home"></i></td>
-                    <td><a href="../index.html">Inicio</a></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-address-card"></i></td>
-                    <td><a href="about.html">Sobre mi</a></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-suitcase"></i></td>
-                    <td><a href="services.html">Servicios</a></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-graduation-cap"></i></td>
-                    <td><a href="studies.html">Estudios</a></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-code"></i></td>
-                    <td><a href="works.html">Mis trabajos</a></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-comments"></i></td>
-                    <td><a href="contact.html">Contactame</a></td>
-                </tr>
-            </table>
+            <ul class="menu-page">
+                <li><a href="../index.html"><i class="fas fa-home"></i></a> <a  class="desaparece" href="../index.html">Inicio</a></li>
+                <li><a href="about.html"><i class="fas fa-address-card"></i></a> <a class="desaparece" href="about.html">Sobre mi</a></li>
+                <li><a href="services.html"><i class="fas fa-suitcase"></i></a> <a class="desaparece" href="services.html">Servicios</a></li>
+                <li><a href="studies.html"><i class="fas fa-graduation-cap"></i></a> <a class="desaparece" href="studies.html">Estudios</a></li>
+                <li><a href="works.html"><i class="fas fa-code"></i></a> <a class="desaparece" href="works.html">Mis trabajos</a></li>
+                <li><a href="contact.html"><i class="fas fa-comments"></i></a> <a class="desaparece" href="contact.html">Contactame</a></li>
+            </ul>
         </aside>
         <article id="content">
             <div id="frame-about">
                 <div class="icon">
-                    <img src="../img/personal-security.png"/>
+                    <img class="responsive-photo" src="../img/personal-security.png"/>
                 </div>
                 <div class="description">   
                     <p>Soy un universitario, estudiante de Ingenieria de Sistemas. Autodidacta, apasionado por la programacion web
@@ -61,7 +44,7 @@
                     </p>
                 </div>
                 <div class="icon">
-                    <img src="../img/man.png"/>
+                    <img class="responsive-photo" src="../img/man.png"/>
                 </div>
                 <div class="description">
                     <p>Mantengo una curiosidad por las diferentes tecnologias que impliquen los proyectos, tanto de Back-End como
@@ -69,7 +52,7 @@
                     </p>
                 </div>
                 <div class="icon">
-                    <img src="../img/target.png"/>
+                    <img class="responsive-photo" src="../img/target.png"/>
                 </div>
                 <div class="description">
                     <p>Tengo como objetivo ampliar más mi entendimiento sobre la web, reforzar mis fortalezas de 
@@ -77,7 +60,7 @@
                     </p>
                 </div>
                 <div class="icon">
-                    <img src="../img/hierarchy.png"/>
+                    <img class="responsive-photo" src="../img/hierarchy.png"/>
                 </div>
                 <div class="description">
                     <p>Considero una de mis fortalezas el trabajo en equipo; resaltando el positivismo y la perseverancia

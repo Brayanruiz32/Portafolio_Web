@@ -31,3 +31,9 @@ estilos de antes
     border-radius: 99px;
     margin-right: 5px;
 }
+
+.responsive-photo{
+    max-width: 100%;
+    height: auto;
+}
+

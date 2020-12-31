@@ -1,0 +1,589 @@
+@media (max-width:1352px){
+    #cabecera .titulo{
+        width: 20%;
+        margin: 0px auto;
+    }
+}
+
+
+@media (max-width:1329px) {
+    #barra .menu-page li {
+        width: 57%;
+    }
+    #cabecera .titulo {
+        width: 22%;
+    }
+}
+
+
+@media (max-width: 1280px) {
+
+    #barra {
+        font-size: 16px;
+    }
+
+    #pie>div {
+        font-size: 16px;
+    }
+
+
+    #barra .menu-page li {
+        margin-top: 21%;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    #barra .menu-page li {
+        margin-top: 22%;
+    }
+}
+
+@media (max-width: 1210px) {
+    #barra .menu-page li {
+        margin-top: 24%;
+    }
+    #cabecera .titulo {
+        width: 24%;
+    }
+}
+
+@media(max-width:1185px){
+    #barra .menu-page li{
+        width: 60%;
+    }
+    #services > div{
+        margin-top: 16%;
+    }
+    #services{
+        align-items: end;
+    }
+}
+
+
+@media (max-width:1114px) {
+    #barra .menu-page li {
+        margin-top: 25%;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    #barra {
+        font-size: 15px;
+    }
+
+    #barra table {
+        width: 105px;
+    }
+
+    #barra .menu-page li {
+        margin-top: 26%;
+    }
+    #cabecera .titulo {
+        width: 26%;
+    }
+}
+
+@media (max-width: 1070px) {
+    #barra .menu-page li {
+        margin-top: 27%;
+    }
+    #services > div{
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 1017px) {
+    #barra .menu-page li {
+        margin-top: 28%;
+    }
+    #cabecera .titulo {
+        width: 28%;
+    }
+}
+
+@media (max-width:955px){
+    #barra .menu-page li{
+        width: 68%;
+    }
+    #cabecera .titulo {
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 935px) {
+    #barra .menu-page li {
+        margin-top: 30%;
+    }
+    #cabecera .titulo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 916px) {
+    #barra .menu-page li {
+        width: 68%;
+    }
+    #cabecera .titulo {
+        width: 33%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 872px) {
+    #barra .menu-page li {
+        width: 68%;
+        margin-top: 32%;
+    }
+
+    .icon img{
+        width: 74px;
+    }
+
+    #services .tech img{
+        width: 45px;
+    }
+
+    #services .tech h4{
+        font-size: 15px;
+    }
+    #frame-skill .fab{
+        font-size: 90px;
+    }
+
+    #frame-skill .box img{
+        width: 90px;
+    }
+
+    #services > div{
+        margin-top: 26%;
+    }
+
+    #frame-skill {
+        gap: 5%;
+    }
+}
+
+@media (max-width:850px){
+    #services > div{
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 842px) {
+    #barra .menu-page li {
+        width: 75%;
+        margin-top: 35%;
+    }
+    #frame-about .description{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 784px){
+    #services .tech h4{
+        font-size: 14px;
+    }
+    #frame-skill .fab{
+        font-size: 80px;
+    }
+    #services .tech img{
+        width: 40px;
+    }
+    #frame-skill{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 763px){
+    #barra .menu-page li {
+        width: 79%;
+        margin-top: 35%;
+    }
+    .icon img{
+        width: 65px;
+    }
+    #cabecera .titulo{
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 750px) {
+    #barra .menu-page li {
+        width: 85%;
+        margin-top: 38%;
+    }
+}
+
+
+@media (max-width: 733px) {
+    #barra .menu-page li {
+        width: 87%;
+        margin-top: 40%;
+    }
+    #frame-about .description{
+        font-size: 14px;
+    }
+    #cabecera .titulo{
+        width: 38%;
+    }
+}
+
+
+
+@media (max-width: 670px) {
+
+    #barra .menu-page li {
+        width: 90%;
+        margin-top: 42%;
+    }
+
+    #barra{
+        font-size: 14px;
+    }
+
+    #cabecera .titulo{
+        width: 40%;
+    }
+}
+
+/*Cambio en el diseño del contenedor a celular*/
+
+@media (max-width:650px) {
+    #profile h3 {
+        font-size: 14px;
+    }
+
+    #barra {
+        font-size: 14px;
+        float: none;
+        height: auto;
+        width: 92%;
+        border-radius: 5px 5px 0px 0px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    #barra ul {
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #barra .menu-page li {
+        margin-top: 0%;
+        display: inline;
+        margin-right: 1%;
+    }
+
+    #barra .menu-page li .fas {
+        margin-right: 1%;
+    }
+
+
+    #pie>div {
+        font-size: 14px;
+    }
+
+
+    #cabecera {
+        height: 22px !important;
+    }
+
+    #content {
+        width: 96%;
+        height: 59%;
+    }
+
+
+    #profile>div {
+        width: 29%;
+    }
+
+    #pie {
+        border-radius: 0px 0px 10px 10px;
+        bottom: 4px;
+        position: relative;
+        width: 92%;
+        margin-left: 4%;
+        top: -2px;
+    }
+
+    #content{
+        height: 83%;
+    }
+
+
+}
+
+@media (max-width:642px){
+    #barra{
+        font-size: 12px;
+    }
+    #cabecera .titulo{
+        font-size: 14px;
+    }
+    #cabecera .titulo img{
+        width: 35px;
+        margin-top: 2px;
+    }
+}
+
+
+
+@media (max-width: 610px) {
+
+    #barra .menu-page li{
+        margin-right: 0%;
+    }
+}
+
+
+
+@media (max-width: 590px){
+    #barra{
+        font-size: 12px;
+    }
+    #cabecera .titulo{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:565px){
+    #barra .menu-page li .desaparece{
+        display: none;
+    }
+    #barra .menu-page li .fas{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 549px){
+    #cabecera .titulo{
+        width: 42%;
+    }
+    .icon img{
+        width: 60px;
+    }
+    #services .tech h4{
+        font-size: 13px;
+    }
+    #frame-skill .fab{
+        font-size: 75px;
+    }
+    #services > div{
+        margin-top: 30%;
+    }
+    #frame-skill{
+        gap: 10%;
+    }
+}
+
+@media (max-width:523px){
+    #cabecera .titulo{
+        width: 45%;
+    }
+}
+@media (max-width:523px){
+    #cabecera .titulo{
+        width: 48%;
+    }
+    #services > div{
+        margin-top: 37%;
+    }
+}
+
+@media (max-width:476px){
+    #services .tech h4{
+        font-size: 12px;
+    }
+    #services > div{
+        margin-top: 40%;
+    }
+}
+
+
+@media (max-width:457px){
+    #cabecera .titulo{
+        width: 51%;
+    }
+
+}
+
+
+@media (max-width: 431px) {
+
+    #barra {
+        font-size: 13px;
+    }
+
+    #pie>div {
+        font-size: 13px;
+    }
+
+    #frame-about .description{
+        font-size: 13px;
+        margin-left: 3%;
+    }
+    .icon img{
+        width: 55px;
+    }
+    #cabecera .titulo{
+        width: 55%;
+    }
+
+    #services > div{
+        margin-top: 35%;
+    }
+    #services{
+        row-gap: 2%;
+        column-gap: 2%;
+        align-items: start;
+    }
+    #frame-skill .box img{
+        width: 80px;
+    }
+    #frame-skill{
+        margin-top: 12%;
+    }
+}
+
+@media (max-width:399px){
+    #cabecera .titulo{
+        width: 59%;
+    }
+    #frame-skill .box img{
+        width: 70px;
+    }
+    #frame-skill .fab{
+        width: 70px;
+    }
+    #frame-skill{
+        margin-top: 15%;
+    }
+    #services > div{
+        margin-top: 40%;
+    }
+
+}
+@media (max-width:372px){
+    #cabecera .titulo{
+        width: 64%;
+    }
+    #frame-about .description{
+        font-size: 12px;
+    }
+    #frame-skill .fab{
+        font-size: 70px;
+    }
+    #services > div{
+        margin-top: 40%;
+    }
+    #frame-skill{
+        margin-top: 20%;
+    }
+    #frame-skill .box{
+        justify-self: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 66%;
+    }
+    #frame-about{
+        grid-template-rows: 25% 25% 25% 22%;
+    }
+}
+
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 70%;
+    }
+}
+
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 75%;
+    }
+
+    #frame-skill .box img{
+        width: 65px;
+    }
+
+    #frame-skill .fab{
+        font-size: 65px;
+    }
+    #frame-skill{
+        justify-items:end; 
+        row-gap: 25%;
+    }
+    #services > div{
+        margin-top: 45%;
+    }
+}
+
+@media (max-width:335px){
+    #frame-skill .fab{
+        font-size: 55px;
+    }
+    #frame-skill .box img{
+        width: 55px;
+    }
+    #frame-skill .box{
+        width: auto;
+    }
+    #frame-skill .box{
+        justify-self: center;
+        text-align: center;
+    }
+    #frame-skill{
+        row-gap: 25%;
+    }
+    #services > div{
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 315px){
+    #frame-skill .box img{
+        width: 50px;
+    }
+    #frame-skill .fab{
+        font-size: 50px;
+    }
+}
+
+
+
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 78%;
+    }
+    #frame-about{
+        grid-template-rows: 23% 21% 23% 21%;
+    }
+    #frame-about .description{
+        font-size: 11px;
+    }
+}
+
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 84%;
+    }
+}
+
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 90%;
+    }
+}

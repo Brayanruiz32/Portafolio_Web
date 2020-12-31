@@ -1,10 +1,22 @@
+@media (max-width:1352px){
+    #cabecera .titulo{
+        width: 20%;
+        margin: 0px auto;
+    }
+}
 
+
+@media (max-width:1329px) {
+    #barra .menu-page li {
+        width: 57%;
+    }
+    #cabecera .titulo {
+        width: 22%;
+    }
+}
 
 
 @media (max-width: 1280px) {
-    #profile h3 {
-        font-size: 16px;
-    }
 
     #barra {
         font-size: 16px;
@@ -14,9 +26,6 @@
         font-size: 16px;
     }
 
-    #profile .social-net {
-        font-size: 22px;
-    }
 
     #barra .menu-page li {
         margin-top: 21%;
@@ -25,10 +34,6 @@
 }
 
 @media (max-width: 1250px) {
-    #profile>div img {
-        width: 160px;
-    }
-
     #barra .menu-page li {
         margin-top: 22%;
     }
@@ -38,43 +43,24 @@
     #barra .menu-page li {
         margin-top: 24%;
     }
-}
-
-
-@media (max-width: 1200px) {
-    #profile>div img {
-        width: 155px;
-    }
-
-    #profile>div:first-child {
-        padding-top: 15%;
+    #cabecera .titulo {
+        width: 24%;
     }
 }
 
-@media (max-width: 1170px) {
-    #profile>div img {
-        width: 150px;
-    }
-
-    #profile>div:first-child {
-        padding-top: 17%;
-    }
-    #barra .menu-page li {
-        width: 56%;
+@media(max-width:1185px){
+    #barra .menu-page li{
+        width: 60%;
     }
 }
 
-@media (max-width: 1137px) {
-    #barra .menu-page li {
-        width: 58%;
-    }
-}
 
 @media (max-width:1114px) {
     #barra .menu-page li {
         margin-top: 25%;
     }
 }
+
 
 @media (max-width: 1100px) {
     #barra {
@@ -88,17 +74,12 @@
     #barra .menu-page li {
         margin-top: 26%;
     }
+    #cabecera .titulo {
+        width: 26%;
+    }
 }
 
 @media (max-width: 1070px) {
-    #profile>div img {
-        width: 145px;
-    }
-
-    #profile>div {
-        width: 25%;
-    }
-
     #barra .menu-page li {
         margin-top: 27%;
     }
@@ -108,46 +89,27 @@
     #barra .menu-page li {
         margin-top: 28%;
     }
-    #barra .menu-page li {
-        width: 60%;
+    #cabecera .titulo {
+        width: 28%;
     }
 }
 
-@media (max-width:980px) {
-    #barra .menu-page li {
-        width: 62%;
+@media (max-width:955px){
+    #barra .menu-page li{
+        width: 68%;
+    }
+    #cabecera .titulo {
+        width: 30%;
     }
 }
 
-
-@media (max-width: 960px) {
-    #profile>div {
-        width: 26%;
-    }
-}
-
-@media (max-width: 960px) {
-    #profile>div:first-child {
-        padding-top: 20%;
-    }
-}
-
-@media (max-width: 960px) {
-    #profile>div {
-        width: 27%;
-    }
-}
 
 @media (max-width: 935px) {
-    #profile>div {
-        width: 29%;
-    }
-
     #barra .menu-page li {
         margin-top: 30%;
     }
-    #barra .menu-page li {
-        width: 64%;
+    #cabecera .titulo {
+        width: 30%;
     }
 }
 
@@ -155,98 +117,85 @@
     #barra .menu-page li {
         width: 68%;
     }
+    #cabecera .titulo {
+        width: 33%;
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 872px) {
     #barra .menu-page li {
-        width: 70%;
+        width: 68%;
         margin-top: 32%;
     }
+
+    .icon img{
+        width: 74px;
+    }
+
 }
 
-@media (max-width: 850px) {
-    #profile>div {
-        width: 31%;
-    }
-
-    #profile>div:first-child {
-        padding-top: 22%;
-    }
+@media (max-width: 842px) {
     #barra .menu-page li {
-        width: 73%;
-    }
-}
-
-@media (max-width: 808px) {
-    #barra .menu-page li {
-        width: 77%;
+        width: 75%;
         margin-top: 35%;
+    }
+    #frame-about .description{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 763px){
+    #barra .menu-page li {
+        width: 79%;
+        margin-top: 35%;
+    }
+    .icon img{
+        width: 65px;
+    }
+    #cabecera .titulo{
+        width: 35%;
     }
 }
 
 
 @media (max-width: 750px) {
-    #profile>div {
-        width: 33%;
-    }
-
     #barra .menu-page li {
-        width: 80%;
+        width: 85%;
         margin-top: 38%;
     }
 }
 
-@media (max-width: 750px) {
-    #profile>div {
-        width: 35%;
-    }
-
-    #profile>div:first-child {
-        padding-top: 25%;
-    }
-}
 
 @media (max-width: 733px) {
     #barra .menu-page li {
-        width: 82%;
+        width: 87%;
         margin-top: 40%;
     }
-}
-
-@media (max-width: 710px) {
-    #profile>div {
-        width: 36%;
+    #frame-about .description{
+        font-size: 14px;
     }
-
-    #profile>div:first-child {
-        padding-top: 26%;
-    }
-    #barra .menu-page li {
-        width: 85%;
+    #cabecera .titulo{
+        width: 38%;
     }
 }
 
-@media (max-width:673px){
-    #barra .menu-page li {
-        width: 88%;
-    }
-}
 
 
 @media (max-width: 670px) {
-    #profile>div {
-        width: 37%;
-    }
-
-    #profile>div:first-child {
-        padding-top: 27%;
-    }
 
     #barra .menu-page li {
         width: 90%;
         margin-top: 42%;
     }
 
+    #barra{
+        font-size: 14px;
+    }
+
+    #cabecera .titulo{
+        width: 40%;
+    }
 }
 
 /*Cambio en el diseño del contenedor a celular*/
@@ -262,6 +211,7 @@
         height: auto;
         width: 92%;
         border-radius: 5px 5px 0px 0px;
+        margin-top: 20px;
         font-size: 13px;
     }
 
@@ -281,12 +231,6 @@
         margin-right: 1%;
     }
 
-    #profile {
-        margin-left: 4%;
-        border-radius: 0px 0px 5px 5px;
-    }
-
-
 
     #pie>div {
         font-size: 14px;
@@ -302,9 +246,6 @@
         height: 59%;
     }
 
-    #profile>div:first-child {
-        padding-top: 15%;
-    }
 
     #profile>div {
         width: 29%;
@@ -323,9 +264,6 @@
         height: 83%;
     }
 
-    #profile > div:first-child {
-        padding-top: 26%;
-    }
 
 }
 
@@ -333,29 +271,32 @@
     #barra{
         font-size: 12px;
     }
+    #cabecera .titulo{
+        font-size: 14px;
+    }
+    #cabecera .titulo img{
+        width: 35px;
+        margin-top: 2px;
+    }
 }
 
 
 
 @media (max-width: 610px) {
-    #profile>div {
-        width: 31%;
-    }
+
     #barra .menu-page li{
         margin-right: 0%;
     }
 }
 
-@media (max-width: 600px) {
-    #profile>div {
-        width: 33%;
-    }
-}
 
 
 @media (max-width: 590px){
     #barra{
         font-size: 12px;
+    }
+    #cabecera .titulo{
+        font-size: 13px;
     }
 }
 
@@ -366,22 +307,37 @@
     #barra .menu-page li .fas{
         font-size: 15px;
     }
-    #profile > div:first-child{
-        padding-top: 30%;
+
+}
+
+@media (max-width: 549px){
+    #cabecera .titulo{
+        width: 42%;
+    }
+    .icon img{
+        width: 60px;
     }
 }
 
-@media (max-width:520px){
-    #profile > div:first-child{
-        padding-top: 32%;
+@media (max-width:523px){
+    #cabecera .titulo{
+        width: 45%;
+    }
+}
+@media (max-width:523px){
+    #cabecera .titulo{
+        width: 48%;
+    }
+}
+
+@media (max-width:457px){
+    #cabecera .titulo{
+        width: 51%;
     }
 }
 
 
 @media (max-width: 430px) {
-    #profile h3 {
-        font-size: 13px;
-    }
 
     #barra {
         font-size: 13px;
@@ -391,48 +347,75 @@
         font-size: 13px;
     }
 
-    #profile .social-net {
-        font-size: 19px;
+    #frame-about .description{
+        font-size: 13px;
+        margin-left: 3%;
+    }
+    .icon img{
+        width: 55px;
+    }
+    #cabecera .titulo{
+        width: 55%;
     }
 
 }
 
-@media (max-width:430px) {
-    #profile>div:first-child {
-        padding-top: 40%;
+@media (max-width:399px){
+    #cabecera .titulo{
+        width: 59%;
+    }
+}
+@media (max-width:372px){
+    #cabecera .titulo{
+        width: 64%;
+    }
+    #frame-about .description{
+        font-size: 12px;
     }
 }
 
-@media (max-width:400px){
-    #profile>div:first-child {
-        padding-top: 45%;
+
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 68%;
+    }
+    #frame-about{
+        grid-template-rows: 25% 25% 25% 22%;
     }
 }
 
-@media (max-width:380px){
-    #profile>div:first-child {
-        padding-top: 50%;
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 72%;
     }
 }
 
-@media (max-width:340px) {
-    #profile>div:first-child {
-        padding-top: 55%;
-    }
-
-    #profile .social-net {
-        font-size: 17px;
+@media (max-width:343px){
+    #cabecera .titulo{
+        width: 75%;
     }
 }
 
-@media (max-width:320px){
-    #profile>div:first-child {
-        padding-top: 60%;
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 78%;
+    }
+    #frame-about{
+        grid-template-rows: 23% 21% 23% 21%;
+    }
+    #frame-about .description{
+        font-size: 11px;
     }
 }
 
-@media (max-width:300px) {
-    #profile>div:first-child {
-        padding-top: 65%;
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 84%;
+    }
+}
+
+@media (max-width:293px){
+    #cabecera .titulo{
+        width: 90%;
     }
 }
